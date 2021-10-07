@@ -44,7 +44,7 @@ Get the best detailed recipes of the most unique dishes and dezzerts from all ov
 
 <img src = "https://raw.githubusercontent.com/anurag-bhatt/Hackathon-noob_coders/master/Readme%20files/multiple%20pages.png"> </img>
 
-# About the Devs :
+# About the Devs  :
 
 - Anurag Bhatt
 - Sannidhya Dubey
