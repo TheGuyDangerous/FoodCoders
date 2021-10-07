@@ -1,7 +1,15 @@
 # HACKATHON TEAM NAME :- NOOB_CODERS
 
+# Our Site link -
+https://theguydangerous.github.io/Hackathon-noob_coders
 
 # About the Site
+
+Hola folks!!
+Feeling hungry??
+You don’t need a silver fork to eat good food...all you need is to know what to make and how to make! Forget about the hustle of scrolling the web and videos for getting the recipes of what you want to make and getting confused among millions of videos... Here we have made that task quicker and easier for y'all!!
+
+Get the best detailed recipes of the most unique dishes and dezzerts from all over the world in a click!!
 
 - This site has curated selected dishes from across the globe to make it easier for people to search it and find them all at one place.
 - The site tries to be user-friendly and platoform-independent for all users from all backgrounds.
