@@ -1,20 +1,5 @@
 # HACKATHON TEAM NAME :- NOOB_CODERS
 
- ## Our Website Link 😊
- 
- <a href = "https://theguydangerous.github.io/Hackathon-noob_coders"> <img src = "https://raw.githubusercontent.com/anurag-bhatt/Hackathon-noob_coders/master/Readme%20files/FoodCodersLogo.png" height = "125px" width = "125px" > </img>
- 
-<hr>
-
-<h2> Hola folks!! </h2>
-Feeling hungry??
-
-You don’t need a silver fork to eat good food...all you need is to know what to make and how to make!
-Forget about the hustle of scrolling the web and videos for getting the recipes of what you want to make and getting confused among millions of videos...
-Here we have made that task  quicker and easier for y'all!!
-
-Get the best detailed recipes of the most unique dishes and dezzerts from all over the world in a click!!
-<hr>
 
 # About the Site
 
