@@ -29,7 +29,7 @@
 
 <img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/multiple%20pages.png"> </img>
 
-# About the Devs :
+# About the Devs  :
 
 - Anurag Bhatt
 - Sannidhya Dubey
