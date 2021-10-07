@@ -1,6 +1,16 @@
 # HACKATHON TEAM NAME :- NOOB_CODERS
 
 
+Hola folks!!
+Feeling hungry??
+
+You don’t need a silver fork to eat good food...all you need is to know what to make and how to make!
+Forget about the hustle of scrolling the web and videos for getting the recipes of wht you want to make and getting confused among millions of videos...
+Here we have made that task  quicker and easier for y'all!!
+
+Get the best detailed recipes of the most unique dishes and dezzerts from all over the world in a click!!
+<hr>
+
 # About the Site
 
 - This site has curated selected dishes from across the globe to make it easier for people to search it and find them all at one place.
