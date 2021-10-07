@@ -17,17 +17,17 @@
 
 ## Super Interactive UI:
 
-<img src = "https://raw.githubusercontent.com/anurag-bhatt/Hackathon-noob_coders/master/Readme%20files/Screenshot%202021-10-07%20140651.png"> </img>
+<img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/Screenshot%202021-10-07%20140651.png"> </img>
 <hr>
 
 ## User Friendly and Platform-Independent :
 
-<img src = "https://raw.githubusercontent.com/anurag-bhatt/Hackathon-noob_coders/master/Readme%20files/page2.png"> </img>
+<img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/page2.png"> </img>
 <hr>
 
 ## Browse Multiple Pages :
 
-<img src = "https://raw.githubusercontent.com/anurag-bhatt/Hackathon-noob_coders/master/Readme%20files/multiple%20pages.png"> </img>
+<img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/multiple%20pages.png"> </img>
 
 # About the Devs :
 
