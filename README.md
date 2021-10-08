@@ -44,5 +44,3 @@ Get the best detailed recipes of the most unique dishes and dezzerts from all ov
 - Sannidhya Dubey
 - Shreya Kakkar
 - Sharad Jha 
-.
-.
