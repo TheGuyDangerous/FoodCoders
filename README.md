@@ -40,7 +40,7 @@ Get the best detailed recipes of the most unique dishes and dezzerts from all ov
 # About the Devs  :
 
 - Anurag Bhatt
-- Sannidhya Dubey
 - Om Daxini
+- Sannidhya Dubey
 - Shreya Kakkar
 - Sharad Jha 
