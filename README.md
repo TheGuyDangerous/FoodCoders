@@ -45,6 +45,7 @@ Get the best and detailed recipes of the most unique dishes and desserts from al
 - Shreya Kakkar
 - Sharad Jha 
 
-# Contributors:
-- Priyanshu Prajapati
-- Yazdan Haider
+## Contributors
+<a href="https://github.com/TheGuyDangerous/FoodCoders/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TheGuyDangerous/FoodCoders" />
+</a>
