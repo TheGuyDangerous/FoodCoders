@@ -26,7 +26,7 @@ Get the best detailed recipes of the most unique dishes and dezzerts from all ov
 
 ## Super Interactive UI:
 
-<img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/Screenshot%202021-10-07%20140651.png"> </img>
+<img src = "https://i.postimg.cc/qqJCkrKQ/Screenshot-2022-10-15-at-1-38-49-PM.png"> </img>
 <hr>
 
 ## User Friendly and Platform-Independent :
@@ -48,3 +48,4 @@ Get the best detailed recipes of the most unique dishes and dezzerts from all ov
 
 # Contributors :
 - Priyanshu Prajapati
+- Yazdan Haider
