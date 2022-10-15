@@ -1,0 +1,14 @@
+{
+    "name": "FoodCoders",
+    "version": "1.0.0",
+    "description": "Get the best detailed recipes of the most unique dishes and dezzerts from all over the world in a click",
+    "manifest_version": 3,
+    "author": "Vedant Pol",
+    "icons": { "16": "images/logo-16.png",
+           "48": "images/logo-48.png",
+          "128": "images/logo-128.png" },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "FoodCoders"
+    }
+}
