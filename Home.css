@@ -19,6 +19,7 @@
 
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
+  color: aliceblue;
   letter-spacing: 12px;
   font-size: 1.875rem;
   font-weight: 400;
@@ -27,6 +28,7 @@
 
 .u-section-1 .u-text-2 {
   text-transform: uppercase;
+  color: aliceblue;
   font-size: 6.875rem;
   line-height: 0.8;
   font-weight: 700;
@@ -35,6 +37,7 @@
 
 .u-section-1 .u-text-3 {
   text-transform: uppercase;
+  color: aliceblue;
   letter-spacing: 2px;
   font-weight: 400;
   margin: 13px auto 0 0;
@@ -43,6 +46,7 @@
 .u-section-1 .u-btn-1 {
   border-style: solid;
   text-transform: uppercase;
+  color: aliceblue;
   font-size: 0.875rem;
   letter-spacing: 1px;
   margin: 20px auto 0 0;
