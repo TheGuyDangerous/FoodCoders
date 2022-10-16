@@ -5,6 +5,7 @@
 
 + ### You can make new pages with more food contents
 + ### You can add new pages based on the dishes.
++ ### Grammar/Spelling errors/Low quality contributions will not he accepted and labelled spam/invalid.
 
 ---
 
@@ -21,7 +22,7 @@ git clone https://github.com/<your_username>/FoodCoders.git
 ### `STEP 3` : Navigate to the project directory .
 
 ```
-cd Git-CheatSheet
+cd FoodCoders
 ```
 
 ### `STEP 4` : Add a reference (remote) to the original repository.
