@@ -39,6 +39,12 @@
     margin: 5px 0;
     color: #ACB2BA;
 }
+.fgp_rem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 .login_child_button{
     width: 10vw;
     padding: 12px;
