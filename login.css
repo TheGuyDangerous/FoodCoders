@@ -62,3 +62,11 @@
     width: 55px;
     height: 55px;    
 }
+@media screen and (max-width:710px){
+    .login_child{
+        width: 100%;
+    }
+    .login_child_button{
+        width: 100%;
+    }
+}
