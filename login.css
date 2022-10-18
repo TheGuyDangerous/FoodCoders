@@ -1,0 +1,73 @@
+.login_form{
+    margin-top: 50px;
+   display: grid;
+   place-items: center;
+   width: 100%;
+   height: auto;
+}
+.login_child{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.login_for_child{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.login_for_child input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 5px 0;
+}
+.login_for_child label{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0;
+    color: #ACB2BA;
+}
+.fgp_rem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.login_child_button{
+    width: 10vw;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 5px 0;
+    background-color: #1676F3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login_logo{
+    width: 55px;
+    height: 55px;    
+}
+@media screen and (max-width:710px){
+    .login_child{
+        width: 100%;
+    }
+    .login_child_button{
+        width: 100%;
+    }
+}
