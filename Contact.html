@@ -8,13 +8,16 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Contact</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/FC.png" type="image/png">
     <link rel="stylesheet" href="noobcoders.css" media="screen">
     <link rel="stylesheet" href="Vegetarian.css" media="screen">
     <link rel="stylesheet" href="Contact.css" media="screen">
+    <link rel="stylesheet" href="footer.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="noobcoders.js" defer=""></script>
-    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 
@@ -34,7 +37,7 @@
 <body class="u-body">
     <header class="u-clearfix u-header u-header" id="sec-aeb5">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="Home.html" data-page-id="915512892" class="u-image u-logo u-image-1" data-image-width="3456"
+            <a href="index.html" data-page-id="915512892" class="u-image u-logo u-image-1" data-image-width="3456"
                 data-image-height="3408" title="Home">
                 <img src="images/Remini20211005111607851-removebg1.png" class="u-logo-image u-logo-image-1">
             </a>
@@ -61,7 +64,7 @@
                     <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="Home.html" style="padding: 10px 20px;">Home</a>
+                                href="index.html" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
@@ -82,7 +85,7 @@
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html"
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html"
                                         style="padding: 10px 20px;">Home</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Vegetarian.html"
@@ -109,9 +112,10 @@
         <div class="contact-container">
             <div class="contact-box">
                 <div class="leftPart">
-                    <img src="https://claxindia.com/wp-content/uploads/elementor/thumbs/contact-header-art-1-ohha01dqa21p4m3oifega9qovr6j364e3ppduer3sg.png" alt="">
+                    <img src="images/icon.jpg"
+                        alt="">
                 </div>
-                <div class="rightPart">
+                <!-- <div class="rightPart">
                     <form action="" id="form">
                         <label for="Name">
                             <span class="contact-ques"> Name </span>
@@ -132,7 +136,29 @@
                         </label>
                         <button type="submit">Submit</button>
                     </form>
-                </div>
+                </div> -->
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Subject</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Write a subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe your issue"></textarea>
+                    </div>
+                </form>
             </div>
 
         </div>
@@ -142,13 +168,21 @@
 
 
 
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-d483">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <p class="u-small-text u-text u-text-variant u-text-1">Created with ❤️ by Team noob_coders for<br>&nbsp;Code
-                Academy Hackathon
-            </p>
+    <footer class="footer"> 
+    
+        <div class="containerfooter">
+        <ul class="foote_bottom_ul_amrc">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Vegetarian.html">Recipes</a></li>
+        <li><a href="https://github.com/TheGuyDangerous/FoodCoders">Repository</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center"><i><b>Developed by Team noob_coders🤍<br>Visit our repo for more info.</b></i></p>
         </div>
-    </footer>
+        
+        </footer>
 </body>
 
 </html>
