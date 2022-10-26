@@ -60,8 +60,8 @@
     cursor: pointer;
 }
 .login_logo{
-    width: 55px;
-    height: 55px;    
+    width: 78px;
+    height: 78px;    
 }
 @media screen and (max-width:710px){
     .login_child{
