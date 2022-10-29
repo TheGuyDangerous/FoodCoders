@@ -8579,3 +8579,6 @@ body {
     padding-bottom: 1.5rem;
   }
 }
+.foot:hover{
+  text-decoration: underline;
+}

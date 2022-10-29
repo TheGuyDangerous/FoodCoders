@@ -279,3 +279,6 @@
   width: 100%;
   height: 3px;
 }
+.foot:hover{
+  text-decoration:underline;
+}
