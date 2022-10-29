@@ -17,6 +17,8 @@
   padding: 207px 7px 0px 63px;
 }
 
+
+
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
   color: aliceblue;
@@ -128,7 +130,7 @@
     margin-left: 167px;
     /* width: 39px; */
     display: block;
-    padding: 0px 28px 0px 38px; 
+    padding: 0px 28px 0px 38px;
   }
 
   .u-section-1 .u-text-2 {
@@ -176,84 +178,100 @@
     margin: -456px -20px 60px auto;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .u-section-1 .u-container-layout-1 {
+    padding: 50px 7px 0px 63px;
+  }
+  .u-section-1 .u-image-1 {
+    margin: -400px 0 60px 0;
+  }
+}
 
-.ani-img{
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .u-section-1 .u-container-layout-1 {
+    padding: 50px 7px 0px 63px;
+  }
+  .u-section-1 .u-image-1 {
+    margin: -400px 0 10px 0;
+  }
+}
+.ani-img {
   animation: movedown 1s linear 1;
   animation-delay: 0.5s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
 
-@keyframes movedown{
-  0%{
+@keyframes movedown {
+  0% {
     transform: translateY(-100px);
     visibility: visible;
   }
-  100%{
+  100% {
     transform: translateY(0);
     visibility: visible;
   }
 }
-.log-img{
+.log-img {
   animation: moveleft 1s linear 1;
   animation-delay: 2s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
 
-@keyframes moveleft{
-  0%{
+@keyframes moveleft {
+  0% {
     transform: translateX(-200px);
     visibility: visible;
   }
-  100%{
+  100% {
     transform: translateX(0);
     visibility: visible;
   }
 }
-.ani-content{
+.ani-content {
   animation: zoomIn 1.2s linear 1;
   animation-delay: 3.5s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
 
-@keyframes zoomIn{
-  0%{
+@keyframes zoomIn {
+  0% {
     transform: scale(0.4);
     visibility: visible;
   }
-  70%{
+  70% {
     transform: scale(1.1);
     visibility: visible;
   }
-  100%{
+  100% {
     transform: scale(1);
     visibility: visible;
   }
 }
-.ani-side{
+.ani-side {
   animation: shake 0.2s linear 4;
   animation-delay: 5.5s;
 }
-@keyframes shake{
-  0%{
+@keyframes shake {
+  0% {
     transform: rotate(0deg);
     box-shadow: 2px 2px 5px #00b4d95e;
   }
-  25%{
+  25% {
     transform: rotate(5deg);
     box-shadow: 2px 2px 5px #2fdcff;
   }
-  50%{
+  50% {
     transform: rotate(0deg);
     box-shadow: 2px 2px 5px #2fdcff;
   }
-  75%{
+  75% {
     transform: rotate(-5deg);
     box-shadow: 2px 2px 5px #2fdcff;
   }
-  100%{
+  100% {
     transform: rotate(0);
     box-shadow: 2px 2px 5px #2fdcff;
   }
