@@ -586,8 +586,7 @@
       padding: 0;
     }
   }
-
+  
   .img-hover-effect:hover {
     transform: scale(1.1);
   }
-  
