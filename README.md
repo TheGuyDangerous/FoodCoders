@@ -33,6 +33,11 @@ Get the best and detailed recipes of the most unique dishes and desserts from al
 <img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/page2.png"> </img>
 <hr>
 
+## Enhanced Contact Page:
+
+<img src = "https://github.com/azmatsiddiqui16/FoodCoders/raw/master/images/page-contact.png"> </img>
+<hr>
+
 ## Browse Multiple Pages:
 
 <img src = "https://raw.githubusercontent.com/TheGuyDangerous/Hackathon-noob_coders/master/Readme%20files/multiple%20pages.png"> </img>
