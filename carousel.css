@@ -139,7 +139,8 @@ img {
 /* On hover, add a #302121 background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(163, 161, 161, 0.8);
+  background-color: rgba(68, 61, 61, 0.653);
+  color:greenyellow;
 }
 
 /* Caption text */
@@ -175,7 +176,12 @@ img {
 }
 
 .carousel-btn:hover {
+<<<<<<< HEAD
+    opacity: 0.7;
+    color: greenyellow;
+=======
   opacity: 0.6;
+>>>>>>> a963c62478d8cbdd50f1d2ee5490161293997940
 }
 
 .carousel-btn-div {
