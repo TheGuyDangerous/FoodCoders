@@ -13,9 +13,7 @@ This repository is a compilation of all of our contributor's favourite recipes c
 - This repo, is purely dependent on the kind contributions we recieve.
 
 
-## Support
-- To morally and mentally support the project, make sure to leave a ⭐️!
-- Fundings are shown on the right side of the screen, if you wanna help out.
+fmhfkh 
 
 ## Official Video (Deprecated)
 
