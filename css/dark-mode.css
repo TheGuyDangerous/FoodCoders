@@ -1,0 +1,48 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode p {
+    color: #fff;
+}
+
+.dark-mode .u-body {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .u-header {
+    background-color: #222;
+}
+
+.dark-mode .u-footer {
+    background-color: #222;
+}
+
+.dark-mode a {
+    color: #9cf;
+}
+
+.dark-mode .u-btn {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark-mode .u-input {
+    background-color: #444;
+    color: #fff;
+}
+
+.toggle-dark-mode {
+    background-color: #fff !important;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .toggle-dark-mode {
+    background-color: #555;
+    color: #fff;
+}
