@@ -30,9 +30,21 @@ const body = document.querySelector("body"),
     boxModelImage = document.querySelector(".menu .box-model img"),
     pageTitle = document.querySelector("title");
 
+
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+}
+
+// Check for saved dark mode preference
+if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+}
+
+
 // remove loader
 function fadeOutEffect() {
-    const fadeEffect = setInterval(function() {
+    const fadeEffect = setInterval(function () {
         if (!loader.style.opacity) {
             loader.style.opacity = 1;
         }
@@ -49,7 +61,7 @@ window.addEventListener("load", fadeOutEffect);
 
 // prevent links click hash
 links.forEach(link =>
-    link.addEventListener("click", function(e) {
+    link.addEventListener("click", function (e) {
         e.preventDefault();
     })
 );
@@ -78,7 +90,7 @@ svgUp.addEventListener("click", () => {
     });
 });
 
-window.onscroll = function() {
+window.onscroll = function () {
     // make navbar fixed & change logo color
     if (window.pageYOffset > headerSection.offsetHeight - 75) {
         nav.classList.add("active");
@@ -149,7 +161,7 @@ if (pageTitle.text === "ROSA- Restaurant") {
 
     // dots smooth scroll
     dots.forEach(dot =>
-        dot.addEventListener("click", function() {
+        dot.addEventListener("click", function () {
             window.scrollTo({
                 top: document.querySelector(this.dataset.x).offsetTop - 100,
                 behavior: "smooth"
@@ -159,7 +171,7 @@ if (pageTitle.text === "ROSA- Restaurant") {
 
     // show box model
     menuImgs.forEach(img =>
-        img.addEventListener("click", function() {
+        img.addEventListener("click", function () {
             const arr = Array.from(this.parentElement.parentElement.children);
 
             arr.forEach(div => div.classList.remove("active"));
