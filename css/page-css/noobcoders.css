@@ -5604,6 +5604,7 @@ a:focus {
 .u-clearfix:before {
   content: '';
   display: table;
+  padding-top: 50px;
 }
 .u-clearfix:after {
   clear: both;

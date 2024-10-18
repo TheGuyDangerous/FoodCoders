@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="/css/page-css/noobcoders.css" media="screen">
     <link rel="stylesheet" href="/css/recipe-pages/page-content-design.css" media="screen">
     <link rel="stylesheet" href="/css/footer/footer.css">
+    <link rel="stylesheet" href="/css/page-css/homepage/navbar.css">
     <script class="u-script" type="text/javascript" src="/js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/noobcoders.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="/js/navbar.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 
@@ -29,81 +31,44 @@
     <meta property="og:type" content="website">
 </head>
 
-<body class="u-body">
-    <header class="u-clearfix u-header u-header" id="sec-aeb5">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/index.html" data-page-id="915512892" class="u-image u-logo u-image-1" data-image-width="3456"
-                data-image-height="3408" title="Home">
-                <img src="/images/Remini20211005111607851-removebg1.png" class="u-logo-image u-logo-image-1">
-            </a>
-            <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 500;">
-                    <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                        href="#">
-                        <svg>
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-                        </svg>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <defs>
-                                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                                    <rect y="1" width="16" height="2"></rect>
-                                    <rect y="7" width="16" height="2"></rect>
-                                    <rect y="13" width="16" height="2"></rect>
-                                </symbol>
-                            </defs>
-                        </svg>
-                    </a>
+<body class="u-body u-header">
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/index.html" class="navbar-logo">
+                    <img src="/images/Remini20211005111607851-removebg1.png" alt="Food Coders Logo" class="logo-image">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Page1.html" class="nav-link active">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html-files/support-pages/About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html-files/support-pages/Contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="/index.html" style="padding: 10px 20px;">Home</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="Page1.html" style="padding: 10px 20px;">Recipies</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="/html-files/support-pages/About.html" style="padding: 10px 20px;">About</a>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/html-files/support-pages/Contact.html"
-                                    style="padding: 10px 20px;">Contact</a>
-                                </li>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/index.html"
-                                        style="padding: 10px 20px;">Home</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page1.html"
-                                        style="padding: 10px 20px;">Recipies</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/html-files/support-pages/About.html"
-                                        style="padding: 10px 20px;">About</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <section class="u-align-center u-clearfix u-custom-color-2 u-section-1" id="carousel_7f81">
         <div class="u-clearfix u-sheet u-sheet-1">
             <h1 class="u-text u-text-palette-1-base u-text-1">Recipes</h1>
             <a href="Page15.html" data-page-id="745226877"
-                class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Previous
+                class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1 nav-btn">Previous
                 page</a>
             <a href="Page18.html" data-page-id="62361546"
-                class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-2">Next Page</a>
+                class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-2 nav-btn">Next
+                Page</a>
             <div class="u-expanded-width u-list u-list-1">
                 <div class="u-repeater u-repeater-1">
                     <div
@@ -113,7 +78,10 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Pancakes</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Pancakes are light, fluffy cakes made from a batter of flour, eggs, milk, and baking powder, cooked on a griddle. They are often served with maple syrup, butter, fresh fruits, or whipped cream for a sweet and satisfying breakfast.</p>
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Pancakes are light,
+                                fluffy cakes made from a batter of flour, eggs, milk, and baking powder, cooked on a
+                                griddle. They are often served with maple syrup, butter, fresh fruits, or whipped cream
+                                for a sweet and satisfying breakfast.</p>
                             <a href="https://www.youtube.com/watch?v=NCMKedZvnyI"
                                 class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-6"
                                 target="_blank"> Take me there</a>
@@ -126,7 +94,10 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Avocado Toast</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Avocado toast is a healthy and simple breakfast dish, featuring mashed ripe avocados spread on toasted bread. It’s often garnished with toppings like poached eggs, cherry tomatoes, feta cheese, or chili flakes for added flavor.</p>
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Avocado toast is a
+                                healthy and simple breakfast dish, featuring mashed ripe avocados spread on toasted
+                                bread. It’s often garnished with toppings like poached eggs, cherry tomatoes, feta
+                                cheese, or chili flakes for added flavor.</p>
                             <a href="https://www.youtube.com/watch?v=0R5km8AQGlI"
                                 class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-6"
                                 target="_blank"> Take me there</a>
@@ -139,7 +110,10 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Oatmeal</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Oatmeal is a warm, nutritious breakfast made from oats simmered in water or milk. It's customizable with various toppings such as fresh fruits, nuts, honey, and seeds, offering a heart-healthy start to the day.</p>
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Oatmeal is a warm,
+                                nutritious breakfast made from oats simmered in water or milk. It's customizable with
+                                various toppings such as fresh fruits, nuts, honey, and seeds, offering a heart-healthy
+                                start to the day.</p>
                             <a href="https://www.youtube.com/shorts/whmmLF2-ldg"
                                 class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-6"
                                 target="_blank"> Take me there</a>
@@ -152,7 +126,10 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Shakshuka</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">  Shakshuka is a savory dish of poached eggs nestled in a spicy tomato sauce with bell peppers, onions, and spices like cumin and paprika. This Middle Eastern favorite is usually served with crusty bread to soak up the rich sauce.
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11"> Shakshuka is a savory
+                                dish of poached eggs nestled in a spicy tomato sauce with bell peppers, onions, and
+                                spices like cumin and paprika. This Middle Eastern favorite is usually served with
+                                crusty bread to soak up the rich sauce.
 
                             </p>
                             <a href="https://www.youtube.com/watch?v=m5Kn9WmOCrw"
@@ -167,7 +144,10 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Smoothie Bowl</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">A smoothie bowl is a thick, blended mixture of fruits like berries, bananas, and leafy greens, topped with granola, chia seeds, nuts, and sliced fruits. It's a refreshing and nutrient-packed option for a quick, energizing breakfast.
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">A smoothie bowl is a
+                                thick, blended mixture of fruits like berries, bananas, and leafy greens, topped with
+                                granola, chia seeds, nuts, and sliced fruits. It's a refreshing and nutrient-packed
+                                option for a quick, energizing breakfast.
                             </p>
                             <a href="https://www.youtube.com/watch?v=94AV_epDjb4"
                                 class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-6"
@@ -181,7 +161,9 @@
                                 class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
                                 data-image-width="601" data-image-height="390">
                             <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Eggs Benedict</h4>
-                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11"> Eggs Benedict is a classic breakfast dish consisting of poached eggs placed on toasted English muffins, layered with ham or bacon, and topped with a rich, creamy hollandaise sauce. </p>
+                            <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11"> Eggs Benedict is a
+                                classic breakfast dish consisting of poached eggs placed on toasted English muffins,
+                                layered with ham or bacon, and topped with a rich, creamy hollandaise sauce. </p>
                             <a href="https://www.youtube.com/watch?v=c8T_gtzHa5g"
                                 class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-6"
                                 target="_blank"> Take me there</a>
@@ -189,7 +171,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </section>
 

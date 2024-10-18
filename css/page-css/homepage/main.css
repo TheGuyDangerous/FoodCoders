@@ -4,7 +4,6 @@
 }
 body {
   margin: 0;
-  padding: 12px;
 }
 body.hide-scroll::-webkit-scrollbar {
   display: none;
@@ -21,12 +20,13 @@ img {
   max-width: 100%;
 }
 h2 {
-  font-family: 'Herr Von Muellerhoff', cursive;
+  font-family: "Herr Von Muellerhoff", cursive;
   font-size: 100px;
   font-weight: normal;
   margin: 0 0 -55px;
 }
-h1, h3 {
+h1,
+h3 {
   font-family: "Source Code Pro", sans-serif;
   font-size: 47px;
   font-weight: bold;
@@ -46,51 +46,161 @@ p {
 /*End Global*/
 
 /*Start Mutual*/
-p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
+p,
+.a-CTA,
+input,
+header .navigation-bar a,
+.copyright li,
+.contact .form form label,
+.contact .form form button {
   font-family: Cabin, sans-serif;
 }
-.fa-asterisk, .a-CTA, h2, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
+.fa-asterisk,
+.a-CTA,
+h2,
+header .navigation-bar a:hover,
+header nav.active .navigation-bar a:hover,
+footer .social-media .links a:hover,
+.copyright .info li a,
+.copyright .CTA li a:hover {
   color: #a96700;
 }
-header nav .navigation-bar .underline, header .text .button button:hover, .contact .form form button:hover, .contact .text i:hover {
+header nav .navigation-bar .underline,
+header .text .button button:hover,
+.contact .form form button:hover,
+.contact .text i:hover {
   background-color: #a96700;
 }
-header .navigation-bar ul li, header .text, .about-us .text, .reservation .text, .menu .box-model, .menu .text, .fixed-image .text, footer, .copyright, .contact .text i {
+header .navigation-bar ul li,
+header .text,
+.about-us .text,
+.reservation .text,
+.menu .box-model,
+.menu .text,
+.fixed-image .text,
+footer,
+.copyright,
+.contact .text i {
   text-align: center;
 }
-header nav, header .navigation-bar ul, .about-us, .reservation, .about-us .image-container, .reservation .image-container, .menu, .menu .menu-image-container, footer .contact-container, .copyright ul, .contact {
+header nav,
+header .navigation-bar ul,
+.about-us,
+.reservation,
+.about-us .image-container,
+.reservation .image-container,
+.menu,
+.menu .menu-image-container,
+footer .contact-container,
+.copyright ul,
+.contact {
   display: flex;
 }
-header nav .toggle, header nav .toggle span, header .navigation-bar, header .navigation-bar ul, .menu .box-model .close, footer .social-media .links a, .copyright .CTA li a {
-  transition: .3s;
+header nav .toggle,
+header nav .toggle span,
+header .navigation-bar,
+header .navigation-bar ul,
+.menu .box-model .close,
+footer .social-media .links a,
+.copyright .CTA li a {
+  transition: 0.3s;
 }
-header, header nav .toggle span, header .navigation-bar a, header .text, header .text .arrow .left, header .text .arrow .right, .recipes, .menu .box-image-container, .fixed-image .text, .copyright, .copyright .arrow-up {
+header,
+header nav .toggle span,
+header .navigation-bar a,
+header .text,
+header .text .arrow .left,
+header .text .arrow .right,
+.recipes,
+.menu .box-image-container,
+.fixed-image .text,
+.copyright,
+.copyright .arrow-up {
   position: relative;
 }
-header nav .toggle, header .navigation-bar .underline, header .text .arrow .left:after, header .text .arrow .right:after, header .svg-down, header .arrow-down, .recipes .text, .menu .box-model .close, .menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left, .menu .box-image-container .box-image, .copyright .svg-up {
+header nav .toggle,
+header .navigation-bar .underline,
+header .text .arrow .left:after,
+header .text .arrow .right:after,
+header .svg-down,
+header .arrow-down,
+.recipes .text,
+.menu .box-model .close,
+.menu .box-model .arrow .arrow-right,
+.menu .box-model .arrow .arrow-left,
+.menu .menu-image-container .image img,
+footer .newsletter i,
+.copyright .arrow-up {
   position: absolute;
 }
-.recipes .text, .fixed-image .text, .menu .box-image-container, .menu .box-image-container .box-image {
+.recipes .text,
+.fixed-image .text,
+.menu .box-image-container,
+.menu .box-image-container .box-image {
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-header nav, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, .menu .box-model, .menu .box-image-container, .menu .box-image-container .box-image {
+header nav,
+header .navigation-bar a:hover .underline,
+header .navigation-bar li.active .underline,
+.menu .box-model,
+.menu .box-image-container,
+.menu .box-image-container .box-image {
   width: 100%;
 }
-button, .dots > div, header nav .toggle, header .arrow-down, .menu .box-model .close, .menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left, .menu .menu-image-container .image img, footer .newsletter i, .copyright .arrow-up {
+button,
+.dots > div,
+header nav .toggle,
+header .arrow-down,
+.menu .box-model .close,
+.menu .box-model .arrow .arrow-right,
+.menu .box-model .arrow .arrow-left,
+.menu .menu-image-container .image img,
+footer .newsletter i,
+.copyright .arrow-up {
   cursor: pointer;
 }
-.dots .active, header nav.active, header nav.active .toggle.active span, header nav .toggle span, header .navigation-bar .underline, header .text .arrow .left, header .text .arrow .right, header .text .button button, .contact form button {
+.dots .active,
+header nav.active,
+header nav.active .toggle.active span,
+header nav .toggle span,
+header .navigation-bar .underline,
+header .text .arrow .left,
+header .text .arrow .right,
+header .text .button button,
+.contact form button {
   background-color: #fff;
 }
-h1, h3, header .navigation-bar a, header .text span, .menu .box-model .close:hover, footer .text h2, footer .text p, footer .social-media .links a, .contact .text i, .contact .form form button {
+h1,
+h3,
+header .navigation-bar a,
+header .text span,
+.menu .box-model .close:hover,
+footer .text h2,
+footer .text p,
+footer .social-media .links a,
+.contact .text i,
+.contact .form form button {
   color: #fff;
 }
-header nav, header .navigation-bar.show, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, header .text .arrow .left:after, .menu .box-model, .copyright .arrow-up {
+header nav,
+header .navigation-bar.show,
+header .navigation-bar a:hover .underline,
+header .navigation-bar li.active .underline,
+header .text .arrow .left:after,
+.menu .box-model,
+.copyright .arrow-up {
   left: 0;
 }
-header .text .arrow .left:after, header .text .arrow .right:after, header .text span, footer .social-media .links a, footer .newsletter i, .copyright .arrow-up, .contact .text i, .contact .form form label {
+header .text .arrow .left:after,
+header .text .arrow .right:after,
+header .text span,
+footer .social-media .links a,
+footer .newsletter i,
+.copyright .arrow-up,
+.contact .text i,
+.contact .form form label {
   display: inline-block;
 }
 /*End Mutual*/
@@ -100,10 +210,10 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
   position: fixed;
   top: 50%;
   right: 30px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   z-index: 5;
 }
-.dots > div  {
+.dots > div {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -120,7 +230,8 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 /*End Dots*/
 
 /*Start Loader*/
-.loader-wrap, .loader {
+.loader-wrap,
+.loader {
   position: absolute;
   left: 0;
   right: 0;
@@ -190,7 +301,7 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
   animation: loader-item-10 2s linear infinite;
 }
 .loader:after {
-  content: 'Loading...';
+  content: "Loading...";
   font-size: 16px;
   font-family: Arial, serif;
   color: #fff;
@@ -203,362 +314,362 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 }
 @-webkit-keyframes loader-item-1 {
   1% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   11% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   21% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-1 {
   1% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   11% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   21% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-2 {
   7% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   17% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   27% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-2 {
   7% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   17% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   27% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-3 {
   13% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   23% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   33% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-3 {
   13% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   23% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   33% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-4 {
   19% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   29% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   39% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-4 {
   19% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   29% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   39% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-5 {
   25% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   35% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   45% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-5 {
   25% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   35% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   45% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-6 {
   31% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   41% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   51% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-6 {
   31% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   41% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   51% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-7 {
   37% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   47% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   57% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-7 {
   37% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   47% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   57% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-8 {
   43% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   53% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   63% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-8 {
   43% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   53% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   63% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-9 {
   49% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   59% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   69% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-9 {
   49% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   59% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   69% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @-webkit-keyframes loader-item-10 {
   55% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   65% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   75% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 @keyframes loader-item-10 {
   55% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   65% {
-      -webkit-transform: scaleY(1.4);
-      transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    transform: scaleY(1.4);
   }
   75% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
   }
 }
 /*End Loader*/
@@ -569,7 +680,8 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 header {
   height: calc(100vh - 22px);
   background-size: cover;
-  background: url("https://ik.imagekit.io/daringbaba/Food_Coders/2d774f06-1bf9-4906-8458-66058541e9ba.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671783774512") fixed bottom;
+  background: url("https://ik.imagekit.io/daringbaba/Food_Coders/2d774f06-1bf9-4906-8458-66058541e9ba.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671783774512")
+    fixed bottom;
   padding: 20px 70px;
 }
 header nav {
@@ -636,7 +748,7 @@ header .navigation-bar ul li {
 }
 header .navigation-bar a {
   text-decoration: none;
-  transition: all .5s;
+  transition: all 0.5s;
   font-size: 16px;
 }
 header nav.active .navigation-bar a {
@@ -647,7 +759,7 @@ header .navigation-bar .underline {
   width: 0;
   left: 50%;
   bottom: -4px;
-  transition: all .3s;
+  transition: all 0.3s;
   display: block;
 }
 header .text {
@@ -656,7 +768,8 @@ header .text {
 header .text h1 {
   margin-bottom: 0;
 }
-header .text .arrow .left, header .text .arrow .right {
+header .text .arrow .left,
+header .text .arrow .right {
   height: 3px;
   width: 100px;
 }
@@ -666,8 +779,9 @@ header .text .arrow .left {
 header .text .arrow .right {
   right: -4%;
 }
-header .text .arrow .left:after, header .text .arrow .right:after {
-  content: '';
+header .text .arrow .left:after,
+header .text .arrow .right:after {
+  content: "";
   border: 10px solid transparent;
   border-left-color: #fff;
   top: -8px;
@@ -684,7 +798,8 @@ header .text span {
   font-size: 15px;
   margin-bottom: 12px;
 }
-header .text .button button, .contact form button {
+header .text .button button,
+.contact form button {
   border: none;
   padding: 9px 18px;
   letter-spacing: 2.4px;
@@ -692,7 +807,8 @@ header .text .button button, .contact form button {
   font-family: source_sans_problack, sans-serif;
   border-radius: 3px;
 }
-header .text .button button, .contact form button:focus {
+header .text .button button,
+.contact form button:focus {
   outline: none;
 }
 header .svg-down {
@@ -710,28 +826,35 @@ header .arrow-down {
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 10;
-  background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/arrow-down.png") no-repeat center;
+  background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/arrow-down.png")
+    no-repeat center;
 }
 /*End Header*/
 
 /*Start About-Us*/
-.about-us, .reservation {
+.about-us,
+.reservation {
   padding: 60px;
 }
-.about-us .text, .reservation .text {
+.about-us .text,
+.reservation .text {
   flex: 50%;
   padding: 40px 52px 0 0;
 }
-.about-us .text h3, .reservation .text h3 {
+.about-us .text h3,
+.reservation .text h3 {
   color: #000;
 }
-.about-us .text .fa-asterisk, .reservation .text .fa-asterisk {
+.about-us .text .fa-asterisk,
+.reservation .text .fa-asterisk {
   color: #9a9998;
 }
-.about-us .image-container, .reservation .image-container {
+.about-us .image-container,
+.reservation .image-container {
   flex: 50%;
 }
-.about-us .image, .reservation .image {
+.about-us .image,
+.reservation .image {
   margin-left: 20px;
 }
 /*End About-Us*/
@@ -739,7 +862,8 @@ header .arrow-down {
 /*Start Recipes*/
 .recipes .image {
   height: 350px;
-  background: url("https://ik.imagekit.io/daringbaba/Food_Coders/Untitled_design__2_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671791121670") fixed center;
+  background: url("https://ik.imagekit.io/daringbaba/Food_Coders/Untitled_design__2_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671791121670")
+    fixed center;
   background-size: cover;
 }
 /*End Recipes*/
@@ -754,7 +878,7 @@ header .arrow-down {
   height: 100%;
   top: 0;
   z-index: 20;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .menu .box-model.active {
   display: block;
@@ -768,7 +892,8 @@ header .arrow-down {
   top: 10px;
   z-index: 20;
 }
-.menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left {
+.menu .box-model .arrow .arrow-right,
+.menu .box-model .arrow .arrow-left {
   width: 40px;
   height: 40px;
   right: 20px;
@@ -786,11 +911,15 @@ header .arrow-down {
   height: 100%;
 }
 .menu .box-image-container .box-image img.active {
-  animation: scale .5s;
+  animation: scale 0.5s;
 }
 @keyframes scale {
-  from {transform: scale(0,0)}
-  to {transform: scale(1,1)}
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
 }
 .menu .menu-image-container {
   flex-wrap: wrap;
@@ -798,14 +927,14 @@ header .arrow-down {
 }
 .menu .menu-image-container .image {
   margin: 0 20px 20px 0;
-  flex: calc( 50% - 40px);
+  flex: calc(50% - 40px);
 }
 .menu .text {
   flex: 55%;
   padding: 40px 0 0 62px;
 }
 .menu .text h3 {
-  color: #000;;
+  color: #000;
 }
 .menu .text .fa-asterisk {
   color: #9a9998;
@@ -814,7 +943,8 @@ header .arrow-down {
 
 /*Start fixed-image*/
 .fixed-image {
-  background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988533/frontpage-menu.jpg") fixed center;
+  background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988533/frontpage-menu.jpg")
+    fixed center;
   background-size: cover;
   height: 400px;
 }
@@ -830,7 +960,7 @@ footer .text {
   margin: auto;
 }
 footer .text h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 19px;
   letter-spacing: 1.9px;
   margin-bottom: 25px;
@@ -884,7 +1014,7 @@ footer .newsletter i {
   height: 30px;
   top: -45px;
   color: #fff;
-  line-height: 1.9
+  line-height: 1.9;
 }
 .copyright ul {
   justify-content: center;
@@ -894,7 +1024,7 @@ footer .newsletter i {
   font-size: 14px;
 }
 .copyright li:not(:last-of-type):after {
-  content: '•';
+  content: "•";
   margin: 10px;
 }
 .copyright .CTA {
@@ -944,16 +1074,18 @@ footer .newsletter i {
   margin-bottom: 5px;
   color: #515151;
 }
-.contact .form form input, .contact .form form textarea {
+.contact .form form input,
+.contact .form form textarea {
   display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 24px;
   border-radius: 5px;
-  border: 2px solid #D8D8D8;
+  border: 2px solid #d8d8d8;
   outline: none;
 }
-.contact .form form input:focus, .contact .form form textarea:focus {
+.contact .form form input:focus,
+.contact .form form textarea:focus {
   border-color: #a96700;
   box-shadow: 0 1px 1px #737373;
 }
@@ -971,138 +1103,145 @@ footer .newsletter i {
 /*Start Home Page Responsive*/
 
 @media (max-width: 1200px) {
-  .menu, .about-us, .reservation {
-      padding: 60px 40px;
+  .menu,
+  .about-us,
+  .reservation {
+    padding: 60px 40px;
   }
-  .about-us .text, .reservation .text {
-      padding: 0 32px 0 0;
+  .about-us .text,
+  .reservation .text {
+    padding: 0 32px 0 0;
   }
-  .about-us .image-container, .reservation .image-container {
-      align-items: center;
+  .about-us .image-container,
+  .reservation .image-container {
+    align-items: center;
   }
   .menu .text {
-      padding: 0 0 0 32px;
+    padding: 0 0 0 32px;
   }
 }
 
 @media (max-width: 992px) {
   body {
-      padding: 0;
+    padding: 0;
   }
   .dots {
-      display: none;
+    display: none;
   }
   header {
-      height: calc(100vh - 10px);
+    height: calc(100vh - 10px);
   }
   header nav .logo {
-      padding-left: 0;
+    padding-left: 0;
   }
   .about-us {
-      display: block;
-      padding-top: 50px;
+    display: block;
+    padding-top: 50px;
   }
-  .about-us .text , .reservation .text {
-      padding: 0 0 40px;
+  .about-us .text,
+  .reservation .text {
+    padding: 0 0 40px;
   }
-  .about-us .image-container .image1, .reservation .image-container .image1 {
-      margin-left: 0;
+  .about-us .image-container .image1,
+  .reservation .image-container .image1 {
+    margin-left: 0;
   }
   .menu {
-      display: block;
-      padding: 60px 20px 60px 40px;
+    display: block;
+    padding: 60px 20px 60px 40px;
   }
   .menu .text {
-      padding: 20px 20px 0 0;
+    padding: 20px 20px 0 0;
   }
   .reservation {
-      display: block;
-      padding: 30px 20px 60px;
+    display: block;
+    padding: 30px 20px 60px;
   }
   .contact {
-      display: block;
-      padding: 78px 20px;
+    display: block;
+    padding: 78px 20px;
   }
   .contact .form {
-      margin-left: 0;
-      margin-top: 40px;
+    margin-left: 0;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 768px) {
   header nav {
-      display: block;
-      text-align: center;
-      left: 0;
-      top: 0;
-      width: 100%;
-      padding-top: 25px;
+    display: block;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 25px;
   }
   header nav .toggle {
-      display: block;
+    display: block;
   }
   header .navigation-bar {
-      position: fixed;
-      top: 0;
-      left: -174px;
-      height: 100%;
-      background-color: #262526;
-      overflow: hidden;
-      z-index: 20;
-      padding: 40px;
+    position: fixed;
+    top: 0;
+    left: -174px;
+    height: 100%;
+    background-color: #262526;
+    overflow: hidden;
+    z-index: 20;
+    padding: 40px;
   }
   header .navigation-bar ul {
-      display: block;
-      padding-top: 40px;
+    display: block;
+    padding-top: 40px;
   }
   header .navigation-bar ul li {
-      text-align: left;
-      padding: 14px 0;
+    text-align: left;
+    padding: 14px 0;
   }
   footer .contact-container {
-      display: block;
+    display: block;
   }
   footer .social-media {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .copyright ul {
-      display: block;
-      margin-top: -20px;
+    display: block;
+    margin-top: -20px;
   }
   .copyright li {
-      margin-bottom: 5px;
+    margin-bottom: 5px;
   }
   .copyright li:not(:last-of-type):after {
-      content: '';
+    content: "";
   }
-
 }
 
 @media (max-width: 576px) {
-  h3, h1 {
-      font-size: 40px;
+  h3,
+  h1 {
+    font-size: 40px;
   }
   h2 {
-      font-size:90px
+    font-size: 90px;
   }
   header {
-      padding: 0;
+    padding: 0;
   }
   header nav .logo {
-      padding-left: 0;
+    padding-left: 0;
   }
   header nav .toggle.active {
-      left: 36%;
+    left: 36%;
   }
   header .navigation-bar.show {
-      padding: 20px;
-      width: 48%;
+    padding: 20px;
+    width: 48%;
   }
-  .about-us, .reservation {
-      padding: 60px 20px;
+  .about-us,
+  .reservation {
+    padding: 60px 20px;
   }
   .menu {
-      padding: 60px 0 60px 20px;
+    padding: 60px 0 60px 20px;
   }
 }
 /*End Home Page Responsive*/

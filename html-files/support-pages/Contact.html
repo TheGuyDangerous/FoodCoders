@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="/css/page-css/noobcoders.css" media="screen">
     <link rel="stylesheet" href="Contact.css" media="screen">
     <link rel="stylesheet" href="/css/footer/footer.css" media="screen">
+    <link rel="stylesheet" href="/css/page-css/homepage/navbar.css">
     <script class="u-script" type="text/javascript" src="/js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/noobcoders.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="/js/navbar.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 
@@ -34,88 +36,39 @@
 </head>
 
 <body class="u-body">
-    <header class="u-clearfix u-header u-header" id="sec-aeb5">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/index.html" data-page-id="915512892" class="u-image u-logo u-image-1" data-image-width="3456"
-                data-image-height="3408" title="Home">
-                <img src="/images/Remini20211005111607851-removebg1.png" class="u-logo-image u-logo-image-1">
-            </a>
-            <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 500;">
-                    <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                        href="#">
-                        <svg>
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-                        </svg>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <defs>
-                                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                                    <rect y="1" width="16" height="2"></rect>
-                                    <rect y="7" width="16" height="2"></rect>
-                                    <rect y="13" width="16" height="2"></rect>
-                                </symbol>
-                            </defs>
-                        </svg>
-                    </a>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/index.html" class="navbar-logo">
+                    <img src="/images/Remini20211005111607851-removebg1.png" alt="Food Coders Logo" class="logo-image">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html-files/pages/Page1.html" class="nav-link">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html-files/support-pages/About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html-files/support-pages/Contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="/index.html" style="padding: 10px 20px;">Home</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="/html-files/pages/Page1.html" style="padding: 10px 20px;">Recipes</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="About.html" style="padding: 10px 20px;">About</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                                href="Contact.html" style="padding: 10px 20px;">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/index.html"
-                                        style="padding: 10px 20px;">Home</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/html-files/pages/Page1.html"
-                                        style="padding: 10px 20px;">Recipes</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html"
-                                        style="padding: 10px 20px;">About</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html"
-                                        style="padding: 10px 20px;">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-
-
     <section class="cid-qBkn0VpmgC" id="footer3-1r" data-rv-view="1350" style="margin-bottom: 466px;">
-
-    
-
-    
-
         <div class="container">
             <div class="row content justify-content-center align-items-start mbr-black">
                 <div class="col-12 col-md-6 col-lg-4 pb-3  order-2 order-lg-0">
-                    
+
                     <div class="social-list pb-3 align-center">
                         <h3 class="follow-title mbr-fonts-style pb-2 align-center display-5">
                             Follow
@@ -124,8 +77,9 @@
                         <a href="https://youtu.be/Gbh_i-BlWkM" class="fa fa-youtube"></a>
 
                         <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                        
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
                         <style>
                             .fa {
                                 padding: 15px;
@@ -135,24 +89,23 @@
                                 text-decoration: none;
                                 border-radius: 50%;
                             }
-                            
+
                             .fa:hover {
                                 opacity: 0.7;
                             }
-                            
+
                             .fa-linkedin {
-                              background: #007bb5;
-                              color: white;
+                                background: #007bb5;
+                                color: white;
                             }
-                            
+
                             .fa-youtube {
-                              background: #bb0000;
-                              color: white;
+                                background: #bb0000;
+                                color: white;
                             }
-                            
-                            </style>
-                        
-                        
+                        </style>
+
+
                     </div>
                     <div class="address">
                         <h3 class="address-title mbr-fonts-style pb-2 align-center display-5">
@@ -196,28 +149,36 @@
                         <span>Closed</span>
                     </div>
                 </div>
-                <div class="form-1 col-sm-12 col-md-7 col-xl-4 col-lg-3 order-1 px-4 p-md-0 order-lg-0" data-form-type="formoid">
+                <div class="form-1 col-sm-12 col-md-7 col-xl-4 col-lg-3 order-1 px-4 p-md-0 order-lg-0"
+                    data-form-type="formoid">
                     <h3 class="form-title pb-3 mbr-fonts-style align-center display-5">
                         Contact Us
                     </h3>
                     <div data-form-alert="" hidden="">Thanks for filling out the form!
                     </div>
-                    <form class="mbr-form" action="https://foodcoders.tk/" method="post" data-form-title="My Form"><input type="hidden" data-form-email="true" value="5pnmOo8FrypIisNw0sDqtCmOHiLthLAD0b5TH9lSFnDzndkFNpuwbvVsz0HboKpO8J0Ye3xp91tCpjnsqbqxQWh7eqlGjZZjdLLsJvfJK61m3kyBeVgI+5LfIm2qHgM=">
+                    <form class="mbr-form" action="https://foodcoders.tk/" method="post" data-form-title="My Form">
+                        <input type="hidden" data-form-email="true"
+                            value="5pnmOo8FrypIisNw0sDqtCmOHiLthLAD0b5TH9lSFnDzndkFNpuwbvVsz0HboKpO8J0Ye3xp91tCpjnsqbqxQWh7eqlGjZZjdLLsJvfJK61m3kyBeVgI+5LfIm2qHgM=">
                         <div class="input-wrap" data-for="name">
-                            <input type="text" class="field display-7" name="name" placeholder="Name" data-form-field="Name" required="" id="name-footer3-1r">
+                            <input type="text" class="field display-7" name="name" placeholder="Name"
+                                data-form-field="Name" required="" id="name-footer3-1r">
                         </div>
                         <div class="input-wrap" data-for="email">
-                            <input type="text" class="field display-7" name="email" placeholder="E-mail" data-form-field="E-mail" required="" id="email-footer3-1r">
+                            <input type="text" class="field display-7" name="email" placeholder="E-mail"
+                                data-form-field="E-mail" required="" id="email-footer3-1r">
                         </div>
                         <div class="input-wrap" data-for="phone">
-                            <input type="text" class="field display-7" name="phone" placeholder="Phone" data-form-field="Phone" id="phone-footer3-1r">
+                            <input type="text" class="field display-7" name="phone" placeholder="Phone"
+                                data-form-field="Phone" id="phone-footer3-1r">
                         </div>
                         <div class="form-group pb-2" data-for="message">
-                            <textarea type="text" class="form-control display-7" name="message" placeholder="Message" rows="2" data-form-field="Message" id="message-footer3-1r"></textarea>
+                            <textarea type="text" class="form-control display-7" name="message" placeholder="Message"
+                                rows="2" data-form-field="Message" id="message-footer3-1r"></textarea>
                         </div>
                         <div class="btn-row align-center">
                             <span class="input-group-btn">
-                                <button href="https://mobirise.com/" type="submit" class="btn btn-form btn-info display-4">Send</button>
+                                <button href="https://mobirise.com/" type="submit"
+                                    class="btn btn-form btn-info display-4">Send</button>
                             </span>
                         </div>
                     </form>
@@ -229,21 +190,21 @@
 
 
 
-    <footer class="footer"> 
-    
+    <footer class="footer">
+
         <div class="containerfooter">
-        <ul class="foote_bottom_ul_amrc">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/html-files/pages/Page1.html">Recipes</a></li>
-        <li><a href="https://github.com/TheGuyDangerous/FoodCoders">Repository</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="#">Contact</a></li>
-        </ul>
-        <!--foote_bottom_ul_amrc ends here-->
-        <p class="text-center"><i><b>Developed by Team noob_coders🤍<br>Visit our repo for more info.</b></i></p>
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html-files/pages/Page1.html">Recipes</a></li>
+                <li><a href="https://github.com/TheGuyDangerous/FoodCoders">Repository</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center"><i><b>Developed by Team noob_coders🤍<br>Visit our repo for more info.</b></i></p>
         </div>
-        
-        </footer>
+
+    </footer>
 </body>
 
 </html>

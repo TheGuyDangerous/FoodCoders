@@ -10,14 +10,14 @@
   <title>Food Coders</title>
   <link rel="shortcut icon" href="/images/FC.png" type="image/png">
   <link rel="stylesheet" href="/css/page-css/noobcoders.css" media="screen">
-  <link rel="stylesheet" href="/css/recipe-pages/base-design.css" media="screen">
+  <link rel="stylesheet" href="/css/recipe-pages/page-content-design.css" media="screen">
   <link rel="stylesheet" href="/css/footer/footer.css">
+  <link rel="stylesheet" href="/css/page-css/homepage/navbar.css">
   <script class="u-script" type="text/javascript" src="/js/jquery.js" defer=""></script>
   <script class="u-script" type="text/javascript" src="/js/noobcoders.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="/js/navbar.js" defer=""></script>
   <link id="u-theme-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-
-
   <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -30,97 +30,55 @@
   <meta property="og:type" content="website">
 </head>
 
-<body class="u-body">
-  <header class="u-clearfix u-header u-header" id="sec-aeb5">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <a href="/index.html" data-page-id="915512892" class="u-image u-logo u-image-1" data-image-width="3456"
-        data-image-height="3408" title="Home">
-        <img src="/images/Remini20211005111607851-removebg1.png" class="u-logo-image u-logo-image-1">
-      </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 500;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-            href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </symbol>
-              </defs>
-            </svg>
-          </a>
+<body class="u-body u-header">
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="/index.html" class="navbar-logo">
+          <img src="/images/Remini20211005111607851-removebg1.png" alt="Food Coders Logo" class="logo-image">
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Page1.html" class="nav-link active">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a href="/html-files/support-pages/About.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/html-files/support-pages/Contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-            <li class="u-nav-item"><a
-                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                href="/index.html" style="padding: 10px 20px;">Home</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                href="Page1.html" style="padding: 10px 20px;">Recipes</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                href="/html-files/support-pages/About.html" style="padding: 10px 20px;">About</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                href="/html-files/support-pages/Contact.html" style="padding: 10px 20px;">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/index.html"
-                    style="padding: 10px 20px;">Home</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page1.html"
-                    style="padding: 10px 20px;">Recipes</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/html-files/support-pages/About.html"
-                    style="padding: 10px 20px;">About</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/html-files/support-pages/Contact.html"
-                    style="padding: 10px 20px;">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
   <section class="u-align-center u-clearfix u-custom-color-2 u-section-1" id="carousel_7f81">
     <div class="u-clearfix u-sheet u-sheet-1">
       <h1 class="u-text u-text-palette-1-base u-text-1">Recipes</h1>
       <a href="Page2.html" data-page-id="26002820"
-        class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1"> Next
-        Page</a>
+        class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-2 nav-btn"> Next Page
+      </a>
       <div class="u-expanded-width u-list u-list-1">
         <div class="u-repeater u-repeater-1">
           <div
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-              <img
-                src="/images/Page 1/panipuri.png"
-                alt="" class="u-expanded-width u-image u-image-contain u-image-default u-image-1 img-hover-effect" data-image-width="786"
-                data-image-height="606">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+              <img src="/images/Page 1/panipuri.png" alt=""
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-1 img-hover-effect"
+                data-image-width="786" data-image-height="606">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-2">Pani Puri&nbsp;</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-3">Pani Puri is a popular Indian street
                 food of crispy, fried, hollow dough balls that are stuffed with boiled potatoes, steamed moong sprouts,
                 spicy tangy water and sweet chutney.</p>
               <a href="https://youtu.be/Gjhn2cqyeG4"
-                class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-2"
+                class="u-active-palette-1-light-1 u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-btn-3"
                 target="_blank">Take me there</a>
             </div>
           </div>
@@ -128,8 +86,8 @@
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-2">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
               <img src="/images/Page 1/dhokla.png" alt=""
-                class="u-expanded-width u-image u-image-contain u-image-default u-image-2 img-hover-effect" data-image-width="626"
-                data-image-height="417">
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-2 img-hover-effect"
+                data-image-width="626" data-image-height="417">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-4">Dhokla</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-5">Dhokla originated from Gujrat as a
                 vegetarian dish which is made out of fermented batter made out of rice, dal, chickpea flour etc. This
@@ -143,8 +101,8 @@
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-3">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
               <img src="/images/Page 1/jalebi.png" alt=""
-                class="u-expanded-width u-image u-image-contain u-image-default u-image-3 img-hover-effect" data-image-width="113"
-                data-image-height="75">
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-3 img-hover-effect"
+                data-image-width="113" data-image-height="75">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-6">Jalebi</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-7">Jalebi is a sweet snack which is made
                 out of sugar, ghee and flour, It is an Indian snack that every human would like because of its sweetness
@@ -158,8 +116,8 @@
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-4">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
               <img src="/images/Page 1/idli-dosa.png" alt=""
-                class="u-expanded-width u-image u-image-contain u-image-default u-image-4 img-hover-effect" data-image-width="280"
-                data-image-height="153">
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-4 img-hover-effect"
+                data-image-width="280" data-image-height="153">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-8">Dosa and Idli</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-9">It is one of the common and famous south
                 indian dish. This is made out of dal, rice and other ingedients. Sambhar and chutney is considered as
@@ -173,8 +131,8 @@
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-5">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
               <img src="/images/Page 1/momos.png" alt=""
-                class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect" data-image-width="601"
-                data-image-height="390">
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-5 img-hover-effect"
+                data-image-width="601" data-image-height="390">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-10">Momos</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-11">Momos are one of the most famous street
                 food. Momo is a dumpling which can be had with spicy chutney which makes it more tasty. It can either be
@@ -188,8 +146,8 @@
             class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-6">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-6">
               <img src="/images/Page 1/dumbiryani.png" alt=""
-                class="u-expanded-width u-image u-image-contain u-image-default u-image-6 img-hover-effect" data-image-width="990"
-                data-image-height="770">
+                class="u-expanded-width u-image u-image-contain u-image-default u-image-6 img-hover-effect"
+                data-image-width="990" data-image-height="770">
               <h4 class="u-text u-text-default u-text-palette-1-base u-text-12">Biryani</h4>
               <p class="u-align-center u-text u-text-palette-1-dark-2 u-text-13">A must try dish of india, availabel in
                 different types and varities. It can be made out of rice and veg and non-veg&nbsp; with spices and
@@ -206,21 +164,26 @@
   </section>
 
 
-  <footer class="footer"> 
-    
+  <footer class="footer">
+
     <div class="containerfooter">
-    <ul class="foote_bottom_ul_amrc">
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="#">Recipes</a></li>
-    <li><a href="https://github.com/TheGuyDangerous/FoodCoders">Repository</a></li>
-    <li><a href="/html-files/support-pages/About.html">About</a></li>
-    <li><a href="/html-files/support-pages/Contact.html">Contact</a></li>
-    </ul>
-    <!--foote_bottom_ul_amrc ends here-->
-    <p class="text-center"><i><b>Developed by Team noob_coders🤍<br>Visit our repo for more info.</b></i></p>
+      <ul class="foote_bottom_ul_amrc">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="https://github.com/TheGuyDangerous/FoodCoders">Repository</a></li>
+        <li><a href="/html-files/support-pages/About.html">About</a></li>
+        <li><a href="/html-files/support-pages/Contact.html">Contact</a></li>
+      </ul>
+      <!--foote_bottom_ul_amrc ends here-->
+      <p class="text-center"><i><b>Developed by Team noob_coders🤍<br>Visit our repo for more info.</b></i></p>
     </div>
-    
-    </footer>
+
+  </footer>
+
+  <!-- Add this script at the end of the body -->
+  <script>
+
+  </script>
 </body>
 
 </html>
